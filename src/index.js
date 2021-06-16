@@ -8,6 +8,7 @@ ReactDom.render(
   <React.Fragment>
     <App />
     <Footer />
+    <h3>Khans</h3>
   </React.Fragment>,
   document.getElementById("root")
 );
