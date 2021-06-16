@@ -7,8 +7,7 @@ import "./main.scss";
 ReactDom.render(
   <React.Fragment>
     <App />
-    <Footer />
-    <h3>Khans</h3>
+    {/* <Footer /> */}
   </React.Fragment>,
   document.getElementById("root")
 );
