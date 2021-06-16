@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #2c3e50;
+}
+
+div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #fff;
+}
+
+button {
+  padding: 2rem 0;
+  background-color: #2c3e50;
+  color: #ebedee69;
+  cursor: pointer;
+  border: none;
+  border-radius: 5rem;
+  width: 20rem;
+  font-weight: 600;
+  font-size: 3rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-box-shadow: 0.6rem 0.5rem 1.2rem 0 #00000091, -0.5rem -0.3rem 1rem 0 #ffffff29;
+          box-shadow: 0.6rem 0.5rem 1.2rem 0 #00000091, -0.5rem -0.3rem 1rem 0 #ffffff29;
+}
+
+button:hover {
+  -webkit-box-shadow: 0.6rem 0.5rem 1.2rem 0 #00000091 inset, -0.6rem -0.5rem 1.2rem 0 #ffffff14 inset;
+          box-shadow: 0.6rem 0.5rem 1.2rem 0 #00000091 inset, -0.6rem -0.5rem 1.2rem 0 #ffffff14 inset;
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #34495e;
+  padding: 2rem 0;
+}
+
+footer * {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.1rem;
+}
+
+footer a {
+  color: #3498db;
+  font-weight: bold;
+  -webkit-filter: blur(0.1rem);
+          filter: blur(0.1rem);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-text-fill-color: #2c3e50;
+  -webkit-text-stroke: 1.5px;
+  -webkit-text-stroke-color: #fff;
+}
+
+footer a:hover {
+  -webkit-filter: blur(0);
+          filter: blur(0);
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
