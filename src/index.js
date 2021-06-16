@@ -7,7 +7,7 @@ import "./main.scss";
 ReactDom.render(
   <React.Fragment>
     <App />
-    {/* <Footer /> */}
+    <Footer />
   </React.Fragment>,
   document.getElementById("root")
 );
